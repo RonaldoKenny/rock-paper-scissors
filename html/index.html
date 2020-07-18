@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ronaldo Kenny Chandra">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        Rock, Paper, Scissors
+    </div>
+    <div>
+        <button class="option-rock" onclick="prompt('prompt-rock')">Rock</button>
+        <button class="option-paper" onclick="prompt('prompt-paper')">Paper</button>
+        <button class="option-scissors" onclick="prompt('prompt-scissors')">Scissors</button>
+    </div>
+    <div id="prompt">
+        <p id="prompt-rock">You chose Rock</p>
+        <p id="prompt-paper">You chose Paper</p>
+        <p id="prompt-scissors">You chose Scissors</p>
+    </div>
+    <div id="prompt-bot">
+        <p id="prompt-bot-rock">Bot chose Rock</p>
+        <p id="prompt-bot-paper">Bot chose Paper</p>
+        <p id="prompt-bot-scissors">Bot chose Scissors</p>
+    </div>
+    <div id="verdict">
+        <p id="user-lose">You lose!</p>
+        <p id="user-tie">You tied!</p>
+        <p id="user-win">You win!</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

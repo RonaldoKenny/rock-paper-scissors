@@ -1,1 +1,1 @@
-"# rock-paper-scissors" 
+Simple web-based rock, paper, scissors game.
